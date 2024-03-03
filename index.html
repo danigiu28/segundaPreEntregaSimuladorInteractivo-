@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer Pre Entrega: Simulador Interactivo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Mise en place</h1>
+
+    <!-- Formulario de inicio de sesión -->
+    <form id="login">
+        <label for="nombreChef">Nombre del Chef:</label>
+        <input type="text" id="nombreChef" required>
+        <label for="partida">Partida:</label>
+        <select id="partida" required>
+            <option value="">Selecciona una partida</option>
+            <option value="Pescaderia">Pescadería</option>
+            <option value="Cuarto Frio">Cuarto Frio</option>
+            <option value="Caliente">Caliente</option>
+            <option value="Arroces">Arroces</option>
+            <option value="Tapas Brasas">Tapas Brasas</option>
+        </select>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+
+    <div id="contenedorPrincipal">
+        
+        <div id="contenedorTareas">
+            <!-- Formulario para agregar tareas -->
+            <div id="formulario">
+                <h2>Agregar tarea</h2>
+                <form id="formularioTarea">
+                    <input type="text" id="tarea" placeholder="Agregar tarea" required>
+                    <button type="submit" id="agregar">Agregar</button>
+                </form>
+            </div>
+        </div>
+        <button id="finalizarCarga">Finalizar carga de tareas</button>
+    </div>
+
+    <!-- Lista de tareas -->
+    <h2>Tareas</h2>
+    <ul id="lista"></ul>
+    <p id="indicacionEliminar">Pulsa sobre una tarea para eliminarla.</p>
+    
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

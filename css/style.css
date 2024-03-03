@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#formulario {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#listaTareas {
+    list-style: none;
+}
+
+#indicacionEliminar {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+#contenedorPrincipal {
+    position: relative;
+}
+
+#contenedorTareas {
+    margin-bottom: 10px;
+    text-align: left;
+}
